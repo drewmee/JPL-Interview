@@ -4,13 +4,13 @@ on:
   push:
     paths:
       - "docs/**"
-      - "README.md"
-      - "CONTRIBUTING.md"
+      - "README.rst"
+      - "CONTRIBUTING.rst"
   pull_request:
     paths:
       - "docs/**"
-      - "README.md"
-      - "CONTRIBUTING.md"
+      - "README.rst"
+      - "CONTRIBUTING.rst"
 
 jobs:
   build:

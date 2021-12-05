@@ -30,7 +30,7 @@ Python package for code I write in my JPL interviews.
 Features
 --------
 
-* Add a cool photo to the readme
+* Add a cool photo to the README!
 
 Credits
 -------
