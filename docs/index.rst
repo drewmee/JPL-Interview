@@ -1,5 +1,5 @@
 Welcome to daremightythings's documentation!
-======================================
+============================================
 
 .. toctree::
    :maxdepth: 2

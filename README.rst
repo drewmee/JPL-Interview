@@ -1,6 +1,6 @@
-================
-daremightythings
-================
+===================
+Dare Mighty Things!
+===================
 
 
 .. image:: https://img.shields.io/pypi/v/daremightythings.svg
