@@ -1,5 +1,6 @@
 """Robots module."""
 
+
 class Rover:
     """A planetary rover."""
 

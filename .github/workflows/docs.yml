@@ -1,6 +1,16 @@
 name: Documentation
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - "docs/**"
+      - "README.rst"
+      - "CONTRIBUTING.rst"
+  pull_request:
+    paths:
+      - "docs/**"
+      - "README.rst"
+      - "CONTRIBUTING.rst"
 
 jobs:
   build:

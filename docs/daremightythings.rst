@@ -4,6 +4,14 @@ daremightythings package
 Submodules
 ----------
 
+daremightythings.interviews module
+----------------------------------
+
+.. automodule:: daremightythings.interviews
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 daremightythings.robots module
 ------------------------------
 

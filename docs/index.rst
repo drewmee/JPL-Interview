@@ -1,4 +1,4 @@
-Welcome to daremightythings's documentation!
+Welcome to daremightythings' documentation!
 ============================================
 
 .. toctree::
