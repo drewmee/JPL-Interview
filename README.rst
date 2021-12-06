@@ -6,19 +6,12 @@ Dare Mighty Things!
 .. image:: https://img.shields.io/pypi/v/daremightythings.svg
         :target: https://pypi.python.org/pypi/daremightythings
 
-.. image:: https://img.shields.io/travis/drewmee/daremightythings.svg
-        :target: https://travis-ci.com/drewmee/daremightythings
+.. image:: https://github.com/drewmee/JPL-Interview/actions/workflows/test.yml/badge.svg
+        :target: https://github.com/drewmee/JPL-Interview/actions/workflows/test.yml
 
-.. image:: https://readthedocs.org/projects/daremightythings/badge/?version=latest
-        :target: https://daremightythings.readthedocs.io/en/latest/?version=latest
+.. image:: https://readthedocs.org/projects/jpl-interview/badge/?version=latest
+        :target: https://jpl-interview.readthedocs.io/en/latest/
         :alt: Documentation Status
-
-
-.. image:: https://pyup.io/repos/github/drewmee/daremightythings/shield.svg
-     :target: https://pyup.io/repos/github/drewmee/daremightythings/
-     :alt: Updates
-
-
 
 Python package for code I write in my JPL interviews.
 
