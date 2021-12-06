@@ -3,22 +3,20 @@
 """Tests for `daremightythings` package."""
 
 import pytest
-
-
-from daremightythings import daremightythings
+from daremightythings import interviews, robots
 
 
 @pytest.fixture
-def response():
-    """Sample pytest fixture.
-
-    See more at: http://doc.pytest.org/en/latest/fixture.html
-    """
-    # import requests
-    # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
+def rover():
+    """A pytest fixture for a planetary rover."""
+    rover = robots.Rover(manufacturer="JPL")
+    return rover
 
 
-def test_content(response):
-    """Sample pytest test function with the pytest fixture as an argument."""
-    # from bs4 import BeautifulSoup
-    # assert 'GitHub' in BeautifulSoup(response.content).title.string
+@pytest.mark.parametrize(
+    "manufacturer, expected", [("JPL", True), ("The Empire", False)]
+)
+def test_landing(manufacturer, expected):
+    """Sample pytest test function with the pytest rover fixture as an argument."""
+    rover = robots.Rover(manufacturer=manufacturer)
+    assert rover.land_on_mars() == expected

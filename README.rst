@@ -1,6 +1,6 @@
-================
-daremightythings
-================
+===================
+Dare Mighty Things!
+===================
 
 
 .. image:: https://img.shields.io/pypi/v/daremightythings.svg
@@ -30,7 +30,7 @@ Python package for code I write in my JPL interviews.
 Features
 --------
 
-* TODO
+* Add a cool photo to the README!
 
 Credits
 -------
