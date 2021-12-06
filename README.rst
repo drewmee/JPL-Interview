@@ -6,11 +6,11 @@ Dare Mighty Things!
 .. image:: https://img.shields.io/pypi/v/daremightythings.svg
         :target: https://pypi.python.org/pypi/daremightythings
 
-.. image:: https://github.com/drewmee/JPL-Interview/actions/workflows/test.yml/badge.svg
-        :target: https://github.com/drewmee/JPL-Interview/actions/workflows/test.yml
+.. image:: https://github.com/drewmee/JPL-Interview-Python/actions/workflows/test.yml/badge.svg
+        :target: https://github.com/drewmee/JPL-Interview-Python/actions/workflows/test.yml
 
-.. image:: https://readthedocs.org/projects/jpl-interview/badge/?version=latest
-        :target: https://jpl-interview.readthedocs.io/en/latest/
+.. image:: https://readthedocs.org/projects/JPL-Interview-Python/badge/?version=latest
+        :target: https://JPL-Interview-Python.readthedocs.io/en/latest/
         :alt: Documentation Status
 
 Python package for code I write in my JPL interviews.

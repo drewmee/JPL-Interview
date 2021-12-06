@@ -27,7 +27,7 @@ dev_requirements = [
     "twine>=1.14.0",
     "pytest>=6.2.4",
     "black>=21.7b0",
-    "sphinx-rtd-theme>=1.0.0"
+    "sphinx-rtd-theme>=1.0.0",
 ]
 
 setup(
@@ -50,7 +50,7 @@ setup(
     long_description=readme + "\n\n" + history,
     include_package_data=True,
     keywords="daremightythings",
-    name="Dare Mighty Things",
+    name="daremightythings",
     packages=find_packages(include=["daremightythings", "daremightythings.*"]),
     test_suite="tests",
     tests_require=test_requirements,
