@@ -10,7 +10,7 @@ with open("README.rst") as readme_file:
 with open("HISTORY.rst") as history_file:
     history = history_file.read()
 
-requirements = []
+requirements = ["matplotlib>=3.3.4", "pandas>=1.1.5"]
 
 test_requirements = [
     "pytest>=3",
